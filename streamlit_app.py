@@ -9,6 +9,7 @@ import matplotlib.image as mpimg
 import matplotlib.pyplot as plt
 from numpy import asarray
 from skimage.transform import resize
+from keras.models import load_model
 
 #this set option is for ignoring warning
 st.set_option("deprecation.showfileUploaderEncoding", False)
@@ -16,7 +17,7 @@ st.set_option("deprecation.showfileUploaderEncoding", False)
 @st.cache(allow_output_mutation=True)
 def load_model():
     #this hdf5 file was created from the compiled model that we built in jupyter notebook
-    model=tf.keras.models.load_model('my_model.h5')
+    model = load_model('my_model.h5')
     return model
 model=load_model()
 
