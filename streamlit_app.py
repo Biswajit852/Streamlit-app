@@ -16,7 +16,7 @@ st.set_option("deprecation.showfileUploaderEncoding", False)
 @st.cache(allow_output_mutation=True)
 def load_model():
     #this hdf5 file was created from the compiled model that we built in jupyter notebook
-    model=tf.keras.models.load_model('my_model.hdf5')
+    model=tf.keras.models.load_model('my_model.h5')
     return model
 model=load_model()
 
