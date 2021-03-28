@@ -10,7 +10,7 @@ import matplotlib.image as mpimg
 import matplotlib.pyplot as plt
 from numpy import asarray
 from skimage.transform import resize
-from keras.models import load_model
+#from keras.models import load_model
 import streamlit as st
 
 #this set option is for ignoring warning
