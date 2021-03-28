@@ -7,4 +7,4 @@ opencv_python==4.5.1.48
 tensorflow==1.14
 Pillow==8.1.2
 skimage==0.18.1
-keras
+from tensorflow.keras.models import load_model
