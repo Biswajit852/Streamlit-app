@@ -1,5 +1,5 @@
 #import necessay libraries
-import streamlit as st
+
 import numpy as np
 import pandas as pd
 from PIL import Image,ImageOps
@@ -11,6 +11,7 @@ import matplotlib.pyplot as plt
 from numpy import asarray
 from skimage.transform import resize
 from keras.models import load_model
+import streamlit as st
 
 #this set option is for ignoring warning
 st.set_option("deprecation.showfileUploaderEncoding", False)
