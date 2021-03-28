@@ -7,7 +7,7 @@ from PIL import Image,ImageOps
 #from tensorflow.keras.models import load_model
 #import opencv-python
 #import cv2
-import matplotlib.image as mpimg
+#import matplotlib.image as mpimg
 import matplotlib.pyplot as plt
 from numpy import asarray
 from skimage.transform import resize
